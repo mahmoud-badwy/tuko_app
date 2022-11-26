@@ -16,29 +16,31 @@ class HomePage extends StatelessWidget {
         children: [
           Type(
             onClicked: () {
-              Navigator.pushNamed(context, 'num');
+              // ignore: avoid_print
+              print("hello world");
             },
             text: 'Numbers',
             color: const Color(0xff49332A),
           ),
           Type(
-            onClicked: () {},
+            onClicked: () {
+              print("hello world");
+            },
             text: 'Family Members',
             color: const Color(0xffF89431),
           ),
           Type(
-            onClicked: () {},
+            onClicked: () {
+              print("hello world");
+            },
             text: 'Colors',
             color: const Color(0xff528032),
           ),
           Type(
-            onClicked: () {},
+            onClicked: () {
+              print("hello world");
+            },
             text: 'Pharses',
-            color: const Color(0xff528032),
-          ),
-          Type(
-            onClicked: () {},
-            text: 'text1',
             color: const Color(0xff47A5CB),
           ),
         ],
