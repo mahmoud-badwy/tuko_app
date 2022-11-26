@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:toku/Models/type_home.dart';
+import 'package:tuko_app/Models/type_home.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
