@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tuko_app/Models/type_home.dart';
+import 'package:tuko_app/Modules/numbers.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -16,29 +17,36 @@ class HomePage extends StatelessWidget {
         children: [
           Type(
             onClicked: () {
-              // ignore: avoid_print
-              print("hello world");
+              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return const NumbersPage();
+              }));
             },
             text: 'Numbers',
             color: const Color(0xff49332A),
           ),
           Type(
-            onClicked: () {
-              print("hello world");
+             onClicked: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return const NumbersPage();
+              }));
             },
             text: 'Family Members',
             color: const Color(0xffF89431),
           ),
           Type(
-            onClicked: () {
-              print("hello world");
+             onClicked: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return const NumbersPage();
+              }));
             },
             text: 'Colors',
             color: const Color(0xff528032),
           ),
           Type(
-            onClicked: () {
-              print("hello world");
+             onClicked: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return const NumbersPage();
+              }));
             },
             text: 'Pharses',
             color: const Color(0xff47A5CB),
