@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:tuko_app/Models/type_home.dart';
+import 'package:tuko_app/Modules/colors.dart';
+import 'package:tuko_app/Modules/family_members.dart';
 import 'package:tuko_app/Modules/numbers.dart';
+import 'package:tuko_app/Modules/pharses.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -25,27 +28,27 @@ class HomePage extends StatelessWidget {
             color: const Color(0xff49332A),
           ),
           Type(
-             onClicked: () {
+            onClicked: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
-                return const NumbersPage();
+                return const FamilymembersPage();
               }));
             },
             text: 'Family Members',
             color: const Color(0xffF89431),
           ),
           Type(
-             onClicked: () {
+            onClicked: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
-                return const NumbersPage();
+                return const ColorsPage();
               }));
             },
             text: 'Colors',
             color: const Color(0xff528032),
           ),
           Type(
-             onClicked: () {
+            onClicked: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
-                return const NumbersPage();
+                return const Pharses();
               }));
             },
             text: 'Pharses',

@@ -13,6 +13,7 @@ class _NumbersPageState extends State<NumbersPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: const Color(0xff49332A),
         title: const Text('Numbers'),
       ),
     );
