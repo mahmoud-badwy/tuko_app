@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tuko_app/Models/element.dart';
-import 'package:tuko_app/colors/colors.dart';
+import 'package:tuko_app/widgets/element.dart';
 
 class NumbersPage extends StatefulWidget {
   const NumbersPage({super.key});

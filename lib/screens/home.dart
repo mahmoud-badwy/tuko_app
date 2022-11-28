@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:tuko_app/Models/type_home.dart';
-import 'package:tuko_app/Modules/colors.dart';
-import 'package:tuko_app/Modules/family_members.dart';
-import 'package:tuko_app/Modules/numbers.dart';
-import 'package:tuko_app/Modules/pharses.dart';
+import 'package:tuko_app/widgets/type_home.dart';
+import 'package:tuko_app/screens/colors.dart';
+import 'package:tuko_app/screens/family_members.dart';
+import 'package:tuko_app/screens/numbers.dart';
+import 'package:tuko_app/screens/pharses.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);

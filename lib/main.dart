@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:tuko_app/Modules/home.dart';
+import 'package:tuko_app/screens/home.dart';
 
 void main() {
   runApp(const TokuApp());
